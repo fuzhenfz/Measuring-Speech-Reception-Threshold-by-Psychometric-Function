@@ -13,5 +13,6 @@ hold on;
 plot(snr,res,'ko','MarkerFaceColor','black');
 plot(xx,yy,'Color','k','LineWidth',1.5);
 axis([-14  6  0  100]);
-
-
+xlabel('SNR (dB)','FontWeight','bold','FontSize',20,'FontName','Times New Roman');
+ylabel('Correct rate (%)','FontWeight','bold','FontSize',20,'FontName','Times New Roman');
+set(gca,'fontsize',16,'linewidth',1)
